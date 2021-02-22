@@ -17,4 +17,34 @@
     <string name="cross_btn">*</string>
     <string name="dived_btn">/</string>
     <string name="delete_btn">Delete</string>
+    <string name="textView5">体重（千克）</string>
+    <string name="text_weight">请输入体重</string>
+    <string name="text_bmi">您的BMI指数为：</string>
+    <string name="btn_calbmi">计算</string>
+    <string name="textView2">身高（厘米）</string>
+    <string name="text_height">请输入身高</string>
+    <string name="btn_multipy">×</string>
+    <string name="btn_9">9</string>
+    <string name="btn_dot">.</string>
+    <string name="btn_0">0</string>
+    <string name="btn_3">3</string>
+    <string name="btn_2">2</string>
+    <string name="btn_1">1</string>
+    <string name="btn_6">6</string>
+    <string name="btn_5">5</string>
+    <string name="btn_4">4</string>
+    <string name="btn_8">8</string>
+    <string name="btn_7">7</string>
+    <string name="btn_equal">=</string>
+    <string name="btn_negative">+/-</string>
+    <string name="btn_plus">+</string>
+    <string name="btn_divide">÷</string>
+    <string name="btn_minus">-</string>
+    <string name="btn_bracket_right">)</string>
+    <string name="btn_bracket_left">(</string>
+    <string name="btn_CE">CE</string>
+    <string name="btn_delete">del</string>
+    <string name="button1">Button</string>
+    <string name="button2">Button</string>
+    <string name="button3">Button</string>
 </resources>

@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.View
+import android.widget.Toast
 import com.example.app1.R
 import kotlinx.android.synthetic.main.activity_bmi.*
 
@@ -16,7 +17,11 @@ class BMIActivity : AppCompatActivity() {
         setContentView(R.layout.activity_bmi)
 
         btn_calbmi.setOnClickListener {
-            bmi_res.text = getBMI()
+            if(text_height.text.isNotEmpty() and text_weight.text.isNotEmpty())
+                bmi_res.text = getBMI()
+            else {
+                Toast.makeText(this,"请输入完整参数",Toast.LENGTH_SHORT).show()
+            }
         }
     }
 

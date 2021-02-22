@@ -6,46 +6,81 @@
     android:layout_height="match_parent"
     tools:context=".activities.BMIActivity">
 
-    <EditText
-        android:id="@+id/text_height"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="101dp"
-        android:ems="10"
-        android:hint="请输入身高"
-        android:inputType="number"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="183dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="264dp"
+        android:text="@string/textView5"
+        android:textColor="#939AB7"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/text_weight"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/text_weight"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="264dp"
+        android:layout_width="364dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="292dp"
+        android:autofillHints=""
         android:ems="10"
-        android:hint="请输入体重"
+        android:hint="@string/text_weight"
+        android:importantForAutofill="no"
         android:inputType="number"
+        android:textSize="50sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.68"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/text_height"
+        android:layout_width="364dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="108dp"
+        android:ems="10"
+        android:hint="@string/text_height"
+        android:inputType="number"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.659"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="183dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/textView2"
+        android:textColor="#939AB7"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/text_height"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btn_calbmi"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="138dp"
-        android:text="计算"
+        android:layout_width="323dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/shape"
+        android:text="@string/btn_calbmi"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
     <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="109dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/btn_calbmi"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_weight">
@@ -54,10 +89,11 @@
             android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="2.1"
+            android:layout_weight="1"
             android:gravity="center"
-            android:text="您的BMI指数为："
+            android:text="@string/text_bmi"
             android:textAlignment="center"
+            android:textColor="#000000"
             android:textSize="36sp" />
 
         <TextView
@@ -69,23 +105,5 @@
             android:textAlignment="center"
             android:textSize="36sp" />
     </LinearLayout>
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:text="单位：厘米"
-        app:layout_constraintBaseline_toBaselineOf="@+id/text_height"
-        app:layout_constraintStart_toEndOf="@+id/text_height" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:text="单位：千克"
-        app:layout_constraintBaseline_toBaselineOf="@+id/text_weight"
-        app:layout_constraintStart_toEndOf="@+id/text_weight" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
