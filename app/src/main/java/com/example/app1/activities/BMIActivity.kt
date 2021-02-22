@@ -32,7 +32,7 @@ class BMIActivity : AppCompatActivity() {
         height /= 100
 //        println("height=${height},weight=${weight}")
         return if(height == 0.0) "NAN"
-        else String.format("%.2f",(weight/height*height))
+        else String.format("%.2f",(weight/(height*height)))
             //(weight*weight/height).toString()
     }
 
