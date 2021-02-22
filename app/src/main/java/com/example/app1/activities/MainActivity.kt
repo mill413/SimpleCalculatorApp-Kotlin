@@ -120,8 +120,8 @@ class MainActivity : AppCompatActivity() {
                 } catch (e: NumberFormatException) {
                     result.text = "Invalid number at:${start}"
                     exp = ""
-
-                    throw IllegalExpressionException(start, "Invalid number", cause = e)
+                    "1.0".toFloat()
+//                    throw IllegalExpressionException(start, "Invalid number", cause = e)
                 }
             }
         }
@@ -144,8 +144,5 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
-
-    class IllegalExpressionException(private val index: Int, message: String? = null, cause: Throwable? = null) :
-        IllegalArgumentException("$message at:$index", cause)
 }
 
