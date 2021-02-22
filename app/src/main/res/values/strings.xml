@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">晴人计算器</string>
+    <string name="equal_btn">=</string>
+    <string name="plus_btn">+</string>
+    <string name="zero_btn">0</string>
+    <string name="one_btn">1</string>
+    <string name="two_btn">2</string>
+    <string name="three_btn">3</string>
+    <string name="four_btn">4</string>
+    <string name="five_btn">5</string>
+    <string name="six_btn">6</string>
+    <string name="seven_btn">7</string>
+    <string name="eight_btn">8</string>
+    <string name="nine_btn">9</string>
+    <string name="dot_btn">.</string>
+    <string name="minus_btn">-</string>
+    <string name="cross_btn">*</string>
+    <string name="dived_btn">/</string>
+    <string name="delete_btn">Delete</string>
+</resources>
