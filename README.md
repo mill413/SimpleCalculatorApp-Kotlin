@@ -29,7 +29,7 @@
 
 ## 2.日期计算器
 
-<img src="I:\App1\doc\date.png" style="zoom:50%;" />
+<img src="/doc/date.png" style="zoom:50%;" />
 
 ### 功能说明
 
@@ -45,7 +45,7 @@
 
 ## 3.BMI指数计算器
 
-<img src="I:\App1\doc\bmi.png" style="zoom:50%;" />
+<img src="/doc/bmi.png" style="zoom:50%;" />
 
 ### 功能说明
 
