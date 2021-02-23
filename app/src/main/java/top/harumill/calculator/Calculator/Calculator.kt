@@ -1,15 +1,7 @@
-package com.example.app1.Calculator
+package top.harumill.calculator.Calculator
 
-import android.annotation.SuppressLint
-import android.app.DatePickerDialog
-import android.widget.Button
-import kotlinx.android.synthetic.main.activity_date.*
-import java.time.Duration
 import java.time.LocalDate
-import java.time.LocalDateTime
-import java.time.Period
 import java.time.temporal.ChronoUnit
-import java.util.*
 
 object Calculator {
     lateinit var curDate: LocalDate

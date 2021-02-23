@@ -1,9 +1,8 @@
-package com.example.app1.activities
+package top.harumill.calculator.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
-import android.view.View
 import android.widget.Toast
 import com.example.app1.R
 import kotlinx.android.synthetic.main.activity_bmi.*

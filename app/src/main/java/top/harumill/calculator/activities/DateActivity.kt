@@ -1,24 +1,16 @@
-package com.example.app1.activities
+package top.harumill.calculator.activities
 
 import android.annotation.SuppressLint
 import android.app.DatePickerDialog
-import android.app.DatePickerDialog.OnDateSetListener
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
-import android.text.format.DateUtils
-import android.util.Log
 import android.widget.Button
-import android.widget.TextView
-import androidx.core.widget.addTextChangedListener
-import com.example.app1.Calculator.Calculator
+import top.harumill.calculator.Calculator.Calculator
 import com.example.app1.R
 import kotlinx.android.synthetic.main.activity_date.*
-import java.time.Duration
 import java.time.LocalDate
-import java.time.LocalDateTime
-import java.util.*
 
 class DateActivity : AppCompatActivity() {
     @SuppressLint("SetTextI18n")

@@ -1,4 +1,4 @@
-package com.example.app1.activities
+package top.harumill.calculator.activities
 
 import android.annotation.SuppressLint
 import android.content.Intent

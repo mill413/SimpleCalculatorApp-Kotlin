@@ -1,4 +1,4 @@
-package com.example.app1
+package top.harumill.calculator
 
 import org.junit.Test
 

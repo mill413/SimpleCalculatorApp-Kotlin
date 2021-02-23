@@ -11,14 +11,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".activities.DateActivity"
+            android:name="top.harumill.calculator.activities.DateActivity"
             android:label="日期计算器"
-            android:parentActivityName=".activities.MainActivity" />
+            android:parentActivityName="top.harumill.calculator.activities.MainActivity" />
         <activity
-            android:name=".activities.BMIActivity"
+            android:name="top.harumill.calculator.activities.BMIActivity"
             android:label="BMI指数计算器"
-            android:parentActivityName=".activities.MainActivity" />
-        <activity android:name=".activities.MainActivity">
+            android:parentActivityName="top.harumill.calculator.activities.MainActivity" />
+        <activity android:name="top.harumill.calculator.activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
