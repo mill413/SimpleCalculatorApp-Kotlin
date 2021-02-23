@@ -3,6 +3,7 @@ package com.example.app1
 import org.junit.Test
 
 import org.junit.Assert.*
+import java.time.LocalDate
 
 /**
  * Example local unit test, which will execute on the development machine (host).
@@ -13,5 +14,13 @@ class ExampleUnitTest {
     @Test
     fun addition_isCorrect() {
         assertEquals(4, 2 + 2)
+    }
+
+    @Test
+    fun test() {
+        val now = LocalDate.now()
+        for (i in (1..12)) {
+            println(now.plusMonths(i.toLong()).monthValue)
+        }
     }
 }

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/calculator_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".activities.MainActivity" >
+    tools:context=".activities.MainActivity">
 
     <TextView
         android:id="@+id/expression"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="2"
+        android:background="#FFFFFF"
         android:fontFamily="sans-serif-light"
         android:gravity="end|bottom"
         android:maxLines="1"
@@ -25,6 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1.8"
+        android:background="#FFFFFF"
         android:fontFamily="sans-serif-light"
         android:gravity="bottom|end"
         android:maxLines="2"
@@ -57,6 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="#FFFFFF"
             android:text="@string/button1"
             android:textSize="14sp"
             android:visibility="invisible" />
@@ -67,6 +69,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="#FFFFFF"
             android:text="@string/button2"
             android:textSize="14sp"
             android:visibility="invisible" />
@@ -77,6 +80,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="#FFFFFF"
             android:text="@string/button3"
             android:textSize="14sp"
             android:visibility="invisible" />

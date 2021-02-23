@@ -81,6 +81,9 @@ class MainActivity : AppCompatActivity() {
             R.id.bmi -> {
                 startActivity(Intent(applicationContext, BMIActivity::class.java))
             }
+            R.id.date -> {
+                startActivity(Intent(applicationContext, DateActivity::class.java))
+            }
             else -> return super.onOptionsItemSelected(item)
         }
         return true

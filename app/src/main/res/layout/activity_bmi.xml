@@ -7,7 +7,7 @@
     tools:context=".activities.BMIActivity">
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textViewafter"
         android:layout_width="183dp"
         android:layout_height="28dp"
         android:layout_marginTop="264dp"

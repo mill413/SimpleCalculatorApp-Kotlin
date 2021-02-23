@@ -47,4 +47,15 @@
     <string name="button1">Button</string>
     <string name="button2">Button</string>
     <string name="button3">Button</string>
+    <string name="btn_date_before">Button</string>
+    <string name="textView8">0 days</string>
+    <string name="textView3">天之前</string>
+    <string name="res_date_before">请输入数字计算</string>
+    <string name="res_date_after">请输入数字计算</string>
+    <string name="btn_date_after">Button</string>
+    <string name="textViewafter">天之后</string>
+    <string name="edit_date_before" />
+    <string name="edit_date_after" />
+    <string name="bmi">BMI</string>
+    <string name="date">日期计算器</string>
 </resources>
