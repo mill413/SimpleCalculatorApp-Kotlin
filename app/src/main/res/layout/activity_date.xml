@@ -27,14 +27,14 @@
             android:layout_weight="1" />
 
         <EditText
-            android:id="@+id/edit_date_before"
+            android:id="@+id/edit_day_before"
             android:layout_width="176dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
             android:hint="@string/edit_date_before"
             android:importantForAutofill="no"
-            android:inputType="date|number"
+            android:inputType="number"
             android:textAlignment="center"
             android:textSize="30sp" />
 
@@ -74,14 +74,14 @@
             android:layout_weight="1" />
 
         <EditText
-            android:id="@+id/edit_date_after"
+            android:id="@+id/edit_day_after"
             android:layout_width="176dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
             android:hint="@string/edit_date_after"
             android:importantForAutofill="no"
-            android:inputType="date|number"
+            android:inputType="number"
             android:textAlignment="center"
             android:textSize="30sp" />
 

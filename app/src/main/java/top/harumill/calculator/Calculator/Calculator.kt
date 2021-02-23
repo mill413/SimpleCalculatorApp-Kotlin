@@ -15,7 +15,7 @@ object Calculator {
     }
 
     fun getDaysBetween(): Long {
-        return ChronoUnit.DAYS.between(curDate, endDate)
+        return ChronoUnit.DAYS.between(startDate, endDate)
     }
 
     fun getDayBefore(dayBefore: Long): LocalDate {

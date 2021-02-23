@@ -30,7 +30,7 @@ class DateActivity : AppCompatActivity() {
         btn_date_before.setOnClickListener { showDatePickerDialog(btn_date_before) }
         btn_date_after.setOnClickListener { showDatePickerDialog(btn_date_after) }
 
-        edit_date_before.addTextChangedListener(object : TextWatcher {
+        edit_day_before.addTextChangedListener(object : TextWatcher {
             override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
 
             }
@@ -49,7 +49,7 @@ class DateActivity : AppCompatActivity() {
             }
         })
 
-        edit_date_after.addTextChangedListener(object : TextWatcher {
+        edit_day_after.addTextChangedListener(object : TextWatcher {
             override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
 
             }
@@ -91,16 +91,17 @@ class DateActivity : AppCompatActivity() {
                     else -> {
                         Calculator.startDate = LocalDate.of(nowY, nowM + 1, nowD)
                         btn_date_before.text = "从 $setStr 开始"
-                        if (edit_date_before.text.isNotEmpty()) {
-                            val cnt = edit_date_before.text.toString()
+                        if (edit_day_before.text.isNotEmpty()) {
+                            val cnt = edit_day_before.text.toString()
                             val res = Calculator.getDayBefore(cnt.toLong())
                             res_date_before.text = "${res.year}-${res.monthValue}-${res.dayOfMonth}"
                         }
-                        if (edit_date_after.text.isNotEmpty()) {
-                            val cnt = edit_date_after.text.toString()
+                        if (edit_day_after.text.isNotEmpty()) {
+                            val cnt = edit_day_after.text.toString()
                             val res = Calculator.getDayAfter(cnt.toLong())
                             res_date_after.text = "${res.year}-${res.monthValue}-${res.dayOfMonth}"
                         }
+                        textView8.text = Calculator.getDaysBetween().toString() + " 天"
                     }
                 }
             }
